@@ -6,6 +6,7 @@ In this project, we use SVD and PCA techniques to perform transformations on a d
 We performed several transformations on the dataset:
 
 1. Average Images: We computed the average cat and dog images by calculating the mean pixel values across all images in each class. These average images provide a representation of the typical appearance of cats and dogs in the dataset.
+''
 
 2. Symmetrized Images: We created symmetrized cat and dog images by averaging each image with its horizontally flipped counterpart. This process aims to enhance symmetrical features in the images and investigate the impact on facial recognition.
 
