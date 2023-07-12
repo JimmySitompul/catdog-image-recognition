@@ -22,6 +22,15 @@ During our analysis, we made the following observations:
 To use this project, follow these steps:
 
 1. Clone the repository:
-   <pre>git clone https://github.com/your-username/facial-recognition-svd-pca.git</pre>
-2. Navigate to the project directory: <pre>cd facial-recognition-svd-pca</pre>
+   <pre>git clone https://github.com/JimmySitompul/catdog-image-recognition.git</pre>
+2. Navigate to the project directory: <pre>cd catdog-image-recognition</pre>
 3. Install the required dependencies: <pre>pip install -r requirements.txt</pre>
+
+# Usage
+1. Run the provided scripts to perform the SVD and PCA transformations on the dataset.
+
+2. Analyze the generated average cat and dog images, symmetrized images, and eigencat and eigendog images.
+
+3. Evaluate the error in projection between cat and dog images.
+
+4. Consider the impact of dataset size on runtime and explore the possibility of incorporating a larger, more diverse dataset.
