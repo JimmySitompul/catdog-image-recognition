@@ -1,19 +1,21 @@
-# Author
+# Image Recognition
+
+## Author
 
 Jimmy Sitompul, Emma Dilley, Kayla Robledo, Maya Pachkowski
 
 Acknowledgment: We want to thank Dr. Michael Kirby for assisting us with this project.
 
-# Institution
+## Institution
 
 Colorado State University, Department of Mathematics
 
 
-# Introduction
+## Introduction
 
 In this project, we use SVD and PCA techniques to perform transformations on a dataset consisting of images of cats and dogs. The objective is to explore the process of facial recognition and gain insights into the underlying patterns and characteristics of the images.
 
-# Transformations
+## Transformations
 We performed several transformations on the dataset:
 
 1. Average Images: We computed the average cat and dog images by calculating the mean pixel values across all images in each class. These average images represent the typical appearance of cats and dogs in the dataset.
@@ -22,14 +24,14 @@ We performed several transformations on the dataset:
 
 3. Doubling the Dataset: To obtain clear eigencat and eigendog images, we doubled the dataset by replicating each image. This allows for better characterization of the principal components and an understanding of the variations within each class.
 
-# Results
+## Results
 During our analysis, we made the following observations:
 
 * Error in Projection: When projecting a dog image onto the cat image class, we encountered greater errors compared to projecting a cat image onto the dog image class. This suggests that the dog images may share more visual features with cats than vice versa.
 
 * Dataset Size: While working with a smaller dataset resulted in quicker runtime, we recognized the need for a larger dataset. A larger dataset would provide more diverse cat and dog images, including variations in color, poses, and lighting conditions. This would improve the model's accuracy and robustness.
 
-# Installation
+## Installation
 To use this project, follow these steps:
 
 1. Clone the repository:
@@ -37,7 +39,7 @@ To use this project, follow these steps:
 2. Navigate to the project directory: <pre>cd catdog-image-recognition</pre>
 3. Install the required dependencies: <pre>pip install -r requirements.txt</pre>
 
-# Usage
+## Usage
 1. Run the provided scripts to perform the SVD and PCA transformations on the dataset.
 
 2. Analyze the generated average cat and dog images, symmetrized images, and eigencat and eigendog images.
